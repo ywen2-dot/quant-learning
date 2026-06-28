@@ -20,21 +20,21 @@ In this project, I used Python to analyze stock price data.
 - yfinance
 - pandas
 - matplotlib
-What this project does
+### What this project does
 Downloads stock price data
 Compares AAPL, TSLA, and NVDA
 Calculates daily returns
 Calculates total return and volatility
 Plots moving averages
-How to run
+### How to run
 Install dependencies:
 pip install -r requirements.txt
 Open the notebook or Python file.
 Run the cells or script from top to bottom.
-Files
+### Files
 01_stock_analysis.ipynb
 requirements.txt
-Next Steps
+### Next Steps
 Add more tickers
 Compare standardized performance
 Build a simple moving average strategy
