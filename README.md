@@ -26,6 +26,30 @@ Compared the stock performance of AAPL, MSFT, NVDA, TSLA, and GOOGL using Python
 - TSLA had the highest volatility, meaning it had the largest daily price movements.
 - MSFT had the lowest volatility among the selected stocks.
 - Higher return often comes with higher risk.
+### Project 03: Risk Metrics Analysis
+
+### Overview
+
+Analyzed risk and return metrics for AAPL, MSFT, NVDA, TSLA, and GOOGL.
+
+### What this project does
+
+- Downloaded historical stock price data using yfinance
+- Calculated daily returns
+- Calculated annualized return
+- Calculated annualized volatility
+- Calculated Sharpe ratio
+- Calculated maximum drawdown
+- Plotted cumulative returns
+- Plotted drawdowns
+
+### Key Findings
+
+- Compared stocks using both return and risk metrics.
+- Annual return shows average yearly performance.
+- Annual volatility shows yearly risk level.
+- Sharpe ratio helps compare risk-adjusted return.
+- Maximum drawdown shows the worst decline from a previous peak.
 
 ### What I did
 
