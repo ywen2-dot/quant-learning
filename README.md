@@ -50,7 +50,28 @@ Analyzed risk and return metrics for AAPL, MSFT, NVDA, TSLA, and GOOGL.
 - Annual volatility shows yearly risk level.
 - Sharpe ratio helps compare risk-adjusted return.
 - Maximum drawdown shows the worst decline from a previous peak.
+### Project 04: Moving Average Strategy
 
+### Overview
+
+Built a simple moving average trading strategy for AAPL and compared it with a buy-and-hold approach.
+
+### What this project does
+
+- Downloaded AAPL historical price data using yfinance
+- Calculated 20-day and 60-day moving averages
+- Generated trading signals based on MA20 and MA60
+- Converted signals into trading positions
+- Calculated strategy returns
+- Compared the strategy with buy and hold
+- Plotted cumulative performance
+
+### Key Findings
+
+- The strategy holds AAPL when MA20 is above MA60.
+- The strategy stays out of the market when MA20 is below MA60.
+- Buy and hold and the moving average strategy can perform differently depending on market trends.
+- This project introduces basic trading signals and backtesting logic.
 ### What I did
 
 - Downloaded stock data using yfinance
